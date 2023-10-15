@@ -1,0 +1,10 @@
+body{
+    margin-top: 5rem;
+}
+
+img {
+    width: 100px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+

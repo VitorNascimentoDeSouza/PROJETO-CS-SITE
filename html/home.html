@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GeekHubConnect</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link rel='stylesheet' href='/css/bootstrap.css'>
+    <link rel='stylesheet' href='/css/estilo.css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarCollapse" class="navbar-collapse collapse">
+
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">
+                        <i class="fa fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="comunidades.html">
+                        <i class="fa fa-users"></i>
+                        Comunidades
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Forum.html">
+                        <i class="fa fa-comments"></i>
+                        Fórum
+                    </a>
+                </li>
+            </ul>
+
+
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="loja.html">
+                        <i class="fa fa-store"></i>
+                        Loja
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="noticias.html">
+                        <i class="fa fa-newspaper"></i>
+                        Notícias
+                    </a>
+                </li>
+
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="perfil.html" data-bs-toggle="dropdown">
+                        <div class="circle">
+                            <img
+                                src="https://i0.wp.com/engenharia360.com/wp-content/uploads/2019/05/esta-pessoa-nao-existe-engenharia360-4.png?resize=791%2C785&ssl=1">
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdownLeft">
+                        <a class="dropdown-item" href="perfil.html">Meu Perfil</a>
+                        <a class="dropdown-item" href="#">Arte Gráfica</a>
+                        <a class="dropdown-item" href="#">Música</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="titulohome d-flex justify-content-center">
+        <h1>GeekHubConnect</h1>
+        <hr>
+    </div>
+
+
+    <div class="post">
+        <img src="https://i0.wp.com/engenharia360.com/wp-content/uploads/2019/05/esta-pessoa-nao-existe-engenharia360-4.png?resize=791%2C785&ssl=1"
+            alt="" width="200">
+        <textarea style="width: 400px;"></textarea>
+        <i class="fa-solid fa-image"></i>
+    </div>
+
+    <div class="card" class="" style="width: 18rem;">
+        <img src="https://img.olhardigital.com.br/wp-content/uploads/2023/04/mariomovie.jpg" class="card-img-top rounded mx-auto d-block"
+            alt="...">
+        <div class="card-body">
+            <h3>Super Mario Bros</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+        </div>
+        <div class="buttons">
+            <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-user-plus"></i></button>
+            <button type="button" class="btn btn-primary btn-sm"><i class="fa-regular fa-thumbs-up"></i></button>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-target="#modalExemplo"><i
+                    class="fa-regular fa-thumbs-down"></i></button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janelaModal"><i
+                    class="fa-regular fa-comments"></i></button>
+            <button type="button" class="btn btn-dark btn-sm"  data-bs-toggle="modal" data-bs-target="#janelaModal2"><i class="fa-solid fa-share"></i></button>
+
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="janelaModal">
+        <div class="modal-dialog modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Título da janela</h4>
+                <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="d-flex border border-dark">
+                    <img src="https://i0.wp.com/engenharia360.com/wp-content/uploads/2019/05/esta-pessoa-nao-existe-engenharia360-4.png?resize=791%2C785&ssl=1"
+                        alt="" width="200">
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                </div>
+                
+                <div class="d-flex float-right border border-dark">
+                    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                    <img src="https://i0.wp.com/engenharia360.com/wp-content/uploads/2019/05/esta-pessoa-nao-existe-engenharia360-4.png?resize=791%2C785&ssl=1"
+                        alt="" width="200">
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="janelaModal2">
+        <div class="modal-dialog modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Título da janela</h4>
+                <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <h1>Compartilhar</h1>
+                <div class="d-flex justify-content-around border border-dark">
+                    <div class="d-flex justify-content-around">
+                        <div width="200px">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Facebook</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                        <p>Twitter</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Instagram</p>
+                    </div>
+                    </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+
+                    Close
+                </button>
+            </div>
+        </div>
+
+
+    <script src='/javascript/popper.js'></script>
+    <script src='/javascript/bootstrap.js'></script>
+
+</body>
+
+</html>

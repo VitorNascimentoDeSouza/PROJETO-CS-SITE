@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekHub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link rel='stylesheet' href='/css/bootstrap.css'>
+    <link rel='stylesheet' href='/css/login.css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">NerdHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Dúvidas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="container-fluid text-white vh-100  ">
+
+            <div class="row h-100 justify-content-center align-items-center ">
+
+                <div class="col-md-6">
+
+                    <h1>Seja bem-vindo a sua rede geek!</h1>
+                    <h4>Amizade, Comunidade, Nerd</h4>
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download </button>
+                    <button type="button" class="btn btn-outline-light btn-lg"><i
+                            class="fab fa-google-play"></i>Download</button>
+                    <!-- <img src="/img/logo png (2).png" alt="Logotipo" class="img-fluid"> -->
+                </div>
+
+                <div style="max-width: 400px; background-color: #ffffff;" class="col w-100 py-5 px-4 rounded ">
+
+                    <form action="">
+                        <h3 class="text-center text-black">Login</h3>
+                        <p class="text-center text-black">Acesse com o seu email e senha</p>
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text me-2">
+                                        <span class="fa fa-envelope"></span>
+                                    </span>
+                                </div>
+                                <input type="email" placeholder="Email " class="form-control" required name="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="lock input-group-text me-2">
+                                        <span class="fa fa-lock"></span>
+                                    </span>
+                                </div>
+                                <input type="password" id="showPassword" placeholder="Senha" class="form-control"
+                                    required name="password">
+                            </div>
+                        </div>
+                        <div class="form group text-black ">
+                            <label for="" class="from-check-label">
+                                <input class="mr-2 me-2" onclick="myFunction()" type="checkbox">Lembrar de mim </label>
+                        </div>
+                        <div class="d-flex justify-content-center text-center mt-4 pt-2">
+                            <a href="#!" class="text-black"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-black"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                            <a href="#!" class="text-black"><i class="fab fa-google fa-lg"></i></a>
+                        </div>
+
+                        <div class="form-group mt-4 text-center">
+                            <a href="">Esqueceu a senha ?</a>
+                        </div>
+
+                        <div class="form-group">
+                            <a class="btn btn-danger w-100 text-white" href="home.html" role="button">Entrar</a>
+                            <div class="row background-color-white">
+                                <div class="col-md-12">
+                                </div>
+
+                            </div>
+
+                    </form>
+                    <div class="text-center text-black"> Ainda não possui uma conta ? <a href="cadastro.html">Criar
+                            Conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container ">
+        <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                <li class="nav-item ">
+                    <a href="" class="nav-link px-2 text-white ">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="policeprivate.html" class="nav-link px-2 text-white">Politica de privacidade</a>
+                </li>
+                <li class="nav-item">
+                    <a href="termos.html" class="nav-link px-2 text-white">Termos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link px-2text-white">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link px-2text-white">Sobre</a>
+                </li>
+            </ul>
+            <p class="text-center text-white"> NerdHub @2023</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src='/javascript/popper.js'></script>
+    <script src='/javascript/bootstrap.js'></script>
+</body>
+
+</html>
